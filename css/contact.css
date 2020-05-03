@@ -180,3 +180,12 @@ color: #b55400;
   text-align: left;
 }
 }
+@media screen and (min-width:992px){
+  .container1{
+    max-width: 720px;
+  }
+}
+.dropdown-menu{
+  position: relative;
+  z-index: 1;
+}
