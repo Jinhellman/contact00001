@@ -182,3 +182,7 @@ color: #b55400;
   padding: 16% 20% 4% 20%;
 
 }
+#dts{
+  position: relative;
+  z-index: 1;
+}
