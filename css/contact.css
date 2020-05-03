@@ -17,7 +17,7 @@ a:hover{
   border-radius: 1%;
 }
 #first{
-  padding: 4% 20% 4% 20%;
+  padding: 4% 0% 4% 0%;
 }
 #second{
   padding: 4% 10%;
@@ -61,7 +61,7 @@ label{
   color:#b55400;
   outline-color: transperent;
 }
-input:focus, textarea:focus, select:focus, a:focus, i:focus{
+input:focus, textarea:focus, select:focus, a:focus, i:focus, button:focus{
         outline: none;
     }
 
@@ -178,7 +178,5 @@ color: #b55400;
 }
 @media screen and (max-width: 991px){#contact-list{
   text-align: left;
-}#firstOne{
-margin-bottom: 70px;
-
+}
 }
