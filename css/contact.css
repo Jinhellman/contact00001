@@ -30,7 +30,7 @@ a:hover{
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 2px solid #b55400;
+  border: 1px solid #b55400;
   border-radius: 26px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -44,6 +44,7 @@ input[type=submit] {
   color: #fff;
   padding: 12px 20px;
   border: solid;
+  border-width: thin;
   border-color: #fff;
   border-radius: 18px;
   cursor: pointer;
@@ -70,8 +71,8 @@ input:focus, textarea:focus, select:focus, a:focus, i:focus, button:focus{
   background-color: rgba(8, 13, 17, 0.48);
   border-color: #b55400;
   padding: 20px;
-  border-style: double;
-  border-width: medium;
+  border-style: solid;
+  border-width: thin;
 }
 .navbar-nav{
   display: table-header-group;
