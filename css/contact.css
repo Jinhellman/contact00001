@@ -186,6 +186,14 @@ color: #b55400;
     max-width: 720px;
   }
 }
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
 .dropdown-menu{
   position: relative;
   z-index: 1;
